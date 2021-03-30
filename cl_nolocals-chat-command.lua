@@ -55,7 +55,7 @@ RegisterCommand(
 			TriggerEvent(
 				'chat:addMessage',
 				{
-					args = {'Locals ^* DISABLED :) !'},
+					args = {'nolocals ^* Enabled !'},
 					color = {0, 255, 0}
 				}
 			)
@@ -64,7 +64,7 @@ RegisterCommand(
 			TriggerEvent(
 				'chat:addMessage',
 				{
-					args = {'Locals ^* ENABLED >:( !'},
+					args = {'nolocals ^* Disabled !'},
 					color = {255, 0, 0}
 				}
 			)
